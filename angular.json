@@ -18,14 +18,48 @@
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
-            "assets": [
-              "src/favicon.ico",
-              "src/assets"
-            ],
+            "assets": ["src/favicon.ico", "src/assets"],
+
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/css/vendor/owl.carousel.min.css",
+              "src/assets/css/vendor/bootstrap-stars.css",
+              "src/assets/css/vendor/bootstrap.min.css",
+              "src/assets/css/vendor/bootstrap.rtl.only.min.css",
+              "src/assets/css/vendor/fullcalendar.min.css",
+              "src/assets/css/vendor/dataTables.bootstrap4.min.css",
+              "src/assets/css/vendor/datatables.responsive.bootstrap4.min.css",
+              "src/assets/css/vendor/perfect-scrollbar.css",
+              "src/assets/css/vendor/glide.core.min.css",
+              "src/assets/css/vendor/bootstrap-stars.css",
+              "src/assets/css/vendor/nouislider.min.css",
+              "src/assets/css/vendor/bootstrap-datepicker3.min.css",
+              "src/assets/css/vendor/component-custom-switch.min.css",
+              "src/assets/css/main.css",
+              "src/assets/css/vendor/video-js.css",
+              "src/assets/css/dore.light.bluenavy.min.css"
+
+
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/vendor/jquery-3.3.1.min.js",
+              "src/assets/js/vendor/bootstrap.bundle.min.js",
+              "src/assets/js/vendor/Chart.bundle.min.js",
+              "src/assets/js/vendor/chartjs-plugin-datalabels.js",
+              "src/assets/js/vendor/moment.min.js",
+              "src/assets/js/vendor/fullcalendar.min.js",
+              "src/assets/js/vendor/datatables.min.js",
+              "src/assets/js/vendor/perfect-scrollbar.min.js",
+              "src/assets/js/vendor/glide.min.js",
+              "src/assets/js/vendor/progressbar.min.js",
+              "src/assets/js/vendor/jquery.barrating.min.js",
+              "src/assets/js/vendor/nouislider.min.js",
+              "src/assets/js/vendor/bootstrap-datepicker.js",
+              "src/assets/js/vendor/Sortable.js",
+              "src/assets/js/vendor/mousetrap.min.js",
+              "src/assets/js/dore.script.js",
+              "src/assets/js/scripts.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -85,17 +119,15 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.spec.json",
             "karmaConfig": "karma.conf.js",
-            "assets": [
-              "src/favicon.ico",
-              "src/assets"
-            ],
-            "styles": [
-              "src/styles.css"
-            ],
+            "assets": ["src/favicon.ico", "src/assets"],
+            "styles": ["src/styles.css"],
             "scripts": []
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "1b0a9b38-3378-4b28-8bb1-387335756b71"
   }
 }
