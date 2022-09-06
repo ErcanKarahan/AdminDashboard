@@ -12,6 +12,7 @@ import { RegisterComponent } from './components/register/register.component';
 import { ThumpListComponent } from './components/thump-list/thump-list.component';
 import { AuthForgotPasswordComponent } from './components/auth-forgot-password/auth-forgot-password.component';
 import { ProductListComponent } from './components/product-list/product-list.component';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ProductListComponent } from './components/product-list/product-list.com
     RegisterComponent,
     ThumpListComponent,
     AuthForgotPasswordComponent,
-    ProductListComponent
+    ProductListComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,

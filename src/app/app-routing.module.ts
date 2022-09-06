@@ -7,6 +7,9 @@ import { ProductListComponent } from './components/product-list/product-list.com
 import { RegisterComponent } from './components/register/register.component';
 import { ThumpListComponent } from './components/thump-list/thump-list.component';
 import { AdminLayoutComponent } from './_layout/admin-layout/admin-layout.component';
+import { FooterComponent } from './_layout/footer/footer.component';
+import { NavbarComponent } from './_layout/navbar/navbar.component';
+import { SidebarComponent } from './_layout/sidebar/sidebar.component';
 
 const routes: Routes = [
   {
@@ -14,8 +17,11 @@ const routes: Routes = [
     component: AdminLayoutComponent,
 
     children: [
-      { path: '', component: DashboardComponent },
-      { path: 'dashboard', component: DashboardComponent },
+      // { path: '', component: DashboardComponent },
+      // { path: 'dashboard', component: DashboardComponent },
+      {path:'',component:SidebarComponent},
+      {path:'',component:NavbarComponent},
+      {path:'',component:FooterComponent}
     ],
   },
   { path: 'auth_forgot_password', component: AuthForgotPasswordComponent },
@@ -23,6 +29,7 @@ const routes: Routes = [
   { path: 'product_list', component: ProductListComponent },
   { path: 'login', component: LoginComponent },
   { path: 'register', component: RegisterComponent },
+  {path:'dashboard',component:DashboardComponent}
 ];
 
 @NgModule({
