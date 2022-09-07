@@ -39,7 +39,10 @@
               "src/assets/css/dore.light.bluenavy.min.css",
               "src/assets/css/dore.light.orangecarrot.min.css",
               "src/assets/font/simple-line-icons/css/simple-line-icons.css",
-              "src/assets/font/iconsmind-s/css/iconsminds.css"
+              "src/assets/font/iconsmind-s/css/iconsminds.css",
+              "src/assets/css/dore.light.blueyale.min.css",
+              "src/assets/css/dore.light.blueyale.css"
+
 
             ],
             "scripts": [
